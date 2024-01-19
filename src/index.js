@@ -9,6 +9,7 @@ import Layout from './Components/Layout';
 import About from './Components/About';
 import Service from './Components/Service';
 import Home from './Components/Home';
+import Error from './Components/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const body = document.querySelector('body');
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path="signup" element={<Signup />} />
       <Route path="about" element={<About />} />
       <Route path="service" element={<Service />} />
+      <Route path="/" element={<Error />} />
     </Route>
   )
 )
