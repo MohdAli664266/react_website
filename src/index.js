@@ -17,7 +17,7 @@ body.style.backgroundColor = 'gray';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path='home' element={<Home />}/>
+      <Route exact path='home' element={<Home />}/>
       <Route path="login" element={<Login />}/>
       <Route path="signup" element={<Signup />} />
       <Route path="about" element={<About />} />
