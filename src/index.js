@@ -13,7 +13,7 @@ import Error from './Components/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const body = document.querySelector('body');
-body.style.backgroundColor = 'gray';
+body.style.backgroundColor = '#1e293b';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +23,7 @@ const router = createBrowserRouter(
       <Route path="signup" element={<Signup />} />
       <Route path="about" element={<About />} />
       <Route path="service" element={<Service />} />
-      <Route path="/" element={<Error />} />
+      <Route element={<Error />} />
     </Route>
   )
 )
