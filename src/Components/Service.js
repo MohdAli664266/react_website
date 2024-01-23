@@ -24,14 +24,14 @@ function Service() {
     passwordGenerator();
   },[length, numberAllowed, charAllowed])
   return (
-    <div className='flex justify-center items-center max-w-full py-10 bg-[hsl(120,2%,26%)]'>
-      <div className=" flex-col min-w-60 bg-gray-800 shadow-lg shadow-slate-900 text-white px-4 ">
+    <div className='flex justify-center items-center max-w-full py-10'>
+      <div className=" flex-col min-w-60 bg-gray-800 shadow-lg shadow-slate-950 text-white px-4 ">
 
         <div className="text-lg md:text-2xl flex items-center justify-center">
           <h1 className='p-8 bold font-bold'>Password Generator</h1>
         </div>
 
-        <div className='flex shadow-lg shadow-slate-900 rounded-lg overflow-hidden mb-4'>
+        <div className='flex shadow-lg shadow-slate-950 rounded-lg overflow-hidden mb-4'>
           <input 
           type="text"
           className="outline-none w-full py-1 px-3 text-yellow-900"

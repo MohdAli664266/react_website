@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Login(){
     return (
         <>
-            <div className="bg-[hsl(120,2%,26%)] max-w-full h-auto py-16 flex justify-center items-center ">
-                <div className="shadow-lg flex bg-slate-600 shadow-slate-900">
+            <div className="max-w-full h-auto py-16 flex justify-center items-center ">
+                <div className="shadow-lg flex bg-slate-800 shadow-slate-950">
                     <form action="/" className="flex flex-col justify-center items-center sm:max-w-xl h-auto border-3 text-green-400 sm:p-10  sm:gap-10 gap-3 max-w-md">
                         <h1 className="text-xl sm:text-3xl px-5 py-2 text-yellow-500">Login Form</h1>
                         <div>

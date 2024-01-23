@@ -10,11 +10,11 @@ function About() {
           </div>
           
           <div className=' flex flex-col p-4 gap-4 text-2xl font-bold text-purple-700'>
-            <h3 className=' border-gray-900 shadow-lg hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>About</h3>
-            <h3 className=' border-gray-900 shadow-lg hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Skills</h3>
-            <h3 className=' border-gray-900 shadow-lg hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Projects</h3>
-            <h3 className=' border-gray-900 shadow-lg hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Goal</h3>
-            <h3 className=' border-gray-900 shadow-lg hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Hobbies</h3>
+            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>About</h3>
+            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Skills</h3>
+            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Projects</h3>
+            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Goal</h3>
+            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Hobbies</h3>
             
           </div>
         </div>
