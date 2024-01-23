@@ -24,7 +24,7 @@ function Service() {
     passwordGenerator();
   },[length, numberAllowed, charAllowed])
   return (
-    <div className='flex justify-center items-center max-w-full h-screen bg-[hsl(120,2%,26%)]'>
+    <div className='flex justify-center items-center max-w-full py-10 bg-[hsl(120,2%,26%)]'>
       <div className=" flex-col min-w-60 bg-gray-800 shadow-lg shadow-slate-900 text-white px-4 ">
 
         <div className="text-lg md:text-2xl flex items-center justify-center">
