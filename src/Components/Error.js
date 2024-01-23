@@ -2,7 +2,9 @@ import React from 'react'
 
 function Error() {
   return (
-    <div className='bg-[rgb(0,255,0)] flex justify-center items-center text-xl'>Error</div>
+    <div className='flex justify-center items-center text-xl'>
+      <img className='max-w-[800px]' src="https://colorlib.com/wp/wp-content/uploads/sites/2/404-error-page-templates.jpg" alt="" srcset="" />
+    </div>
   )
 }
 
