@@ -14,7 +14,10 @@ function Login(){
                             <input className="shadow-md bg-transparent sm:px-2 py-1 text-fuchsia-400 outline-none" type="password" placeholder='Enter the Password' />
                         </div>
                         <p className="px-2">If you are new user then? <Link to="../signup" className="underline text-yellow-400">Signup First</Link></p>
-                        <button type="submit" className="bg-slate-900 text-yellow-400 px-10 my-2 text-md">Login</button>
+                        <button type="submit" className="bg-slate-900 text-yellow-400 px-10 my-2 text-md" onClick={(e)=>{
+                            e.preventDefault();
+                            alert("Site is on production phase still");
+                        }}>Login</button>
                     </form>
                 </div>
             </div>

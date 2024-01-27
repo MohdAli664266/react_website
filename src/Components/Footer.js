@@ -9,12 +9,21 @@ function Footer() {
             <div className='grid md:grid-cols-3 gap-5 p-10 mt-5'>
               <div className='bg-slate-800 shadow-md shadow-slate-950 p-4'>
                 <h1 className='text-3xl font-bold'>Stay Connect</h1>
-                <p className='px-4 text-purple-700'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quae ullam incidunt fugiat excepturi</p>
+                <div className='flex overflow-hidden mt-8 shadow-lg shadow-gray-950 rounded-lg'>
+                <input className='w-full outline-none py-1 px-3 text-[#0f0]' type="text" name="name" id="name" placeholder='Enter your email' />
+                <button className='bg-blue-700 shrink-0 px-2 font-bold hover:text-[#0f0]' onClick={()=>(alert)("Site is on production phase still")}>Submit</button>
+                </div>
               </div>
 
               <div className='bg-slate-800 shadow-md shadow-slate-950 p-4'>
                 <h1 className='text-3xl font-bold'>Projects</h1>
-                <p className='px-4 text-purple-700'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quae ullam incidunt fugiat excepturi</p>
+                <ul className='px-4 text-purple-700 mt-2'>
+                  <li className='cursor-pointer hover:text-[#0f0]'>Password Generator</li>
+                  <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
+                  <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
+                  <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
+                  
+                </ul>
               </div>
 
               <div className='bg-slate-800 shadow-md shadow-slate-950 p-4 flex flex-col gap-5 '>
@@ -33,7 +42,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <h1 className='text-center py-4'>All keywords are reserved. Copywrite @</h1>
+            <h1 className='text-center py-4'>All keywords are reserved. Copywrite&copy; </h1>
         </div>
     </footer>
     </>

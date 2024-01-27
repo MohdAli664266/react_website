@@ -42,7 +42,7 @@ function Service() {
           />
 
           <button
-          className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0'
+          className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 hover:text-[#0f0]'
           onClick={()=>{
             passwordRef.current?.select();
             // passwordRef.current?.setSelectionRange(0, 6);
