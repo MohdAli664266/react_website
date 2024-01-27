@@ -25,7 +25,9 @@ function Footer() {
                   <FaInstagram className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
                   <a href="https://www.linkedin.com/in/mohd-ali-293a94250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
                   <FaLinkedinIn className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
-                  <FaGithub className='hover:text-purple-700 text-3xl text-[#00ffff]' />
+
+                  <a href="https://github.com/MohdAli664266" target='_blank'>
+                  <FaGithub className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
                   <a href="https://x.com/AnsariRoyalroy?t=aWIO7l_gZCHj1uTI_5hHaA&s=08 " target='_blank'>
                   <FaTwitter className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
                 </div>
