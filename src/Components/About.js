@@ -1,34 +1,39 @@
 import React from 'react'
+import pic from '../assests/pic.jpg';
+import Ali from '../assests/ali.jpg';
 function About() {
   return (
     <>
-      <div className='min-w-full flex justify-center items-center px-10 mt-4 gap-4'>
+      <div className='min-w-full grid md:grid-cols-5 md:px-10 gap-4 bg-black'>
 
-        <div className='min-w-[20%] h-full flex-row justify-center items-center '>
-          <div className='min-w-[100px] max-w-[160px] flex justify-center items-center'>
-            <img src="https://www.freepnglogos.com/uploads/logo-home-png/pros-cons-investing-rental-property-piktochart-14.png" alt="" srcset="" />
+        <div className='bg-slate-950 shadow-sm p-4 flex flex-col items-center justify-center'>
+          <img className='rounded-full w-[100px] h-[100px] object-cover hover:border-2 border-purple-700 ease-in-out transition-all duration-100' src={pic} alt="" srcset="" />
+          <p className='text-[#0f0] hover:text-[#0ff] font-bold transition-colors duration-900'>Mohd Ali</p>
+          <div className='mt-10'>
+            <h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Description</h1>
+            <h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Skill</h1>
+            <h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Contact</h1>
+            <h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Projects</h1>
           </div>
-          
-          <div className=' flex flex-col p-4 gap-4 text-2xl font-bold text-purple-700'>
-            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>About</h3>
-            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Skills</h3>
-            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Projects</h3>
-            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Goal</h3>
-            <h3 className=' border-gray-900 shadow-md hover:text-purple-400 shadow-gray-950 px-2 cursor-pointer'>Hobbies</h3>
-            
+
+        </div>
+        <div className='col-span-4 text-[#0f0] p-4 grid md:grid-rows-10 gap-5'>
+          <div className=' text-center font-bold text-2xl hover:text-[#0ff] transition-colors duration-900'><h1>Heading will display here</h1></div>
+          <div className='row-span-9 grid grid-cols-2 gap-5'>
+            <div className='flex flex-col items-center justify-center md:px-2'>
+              <p className='hover:text-[#0f0] text-[#0ff] transition-colors duration-900'>A motivated student with expertise in Problem Solving and Logic 
+Building and having a good command over Data Structures and 
+Algorithms along with positive attitude and Critical Thinking.
+</p>
+
+              <hr className='text-white border-1 border-white w-full my-2' />
+              <p className='hover:text-[#0f0] text-[#0ff] transition-colors duration-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque assumenda quasi sit</p>
+              
+            </div>
+            <div><img className='max-w-full md:h-[600px] h-[400px] object-cover' src={Ali} alt="" srcset="" /></div>
           </div>
         </div>
-
-        <div className='min-w-[80%] min-h-full flex flex-col justify-center items-center p-4 gap-4'>
-          <h1 className='shadow-lg shadow-gray-900 text-2xl p-2 font-bold'>Heading will display here</h1>
-
-          <div className='flex'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit minus debitis ad labore odio dolore suscipit sequi soluta, porro libero. Voluptatibus tempora deleniti eligendi aspernatur officia reprehenderit facilis adipisci?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laborum expedita itaque error sit tempora debitis voluptas, fugit ipsum odio harum pariatur vitae blanditiis, libero necessitatibus officiis aperiam? Obcaecati, quaerat.
-            </p>
-            <img className='max-w-[250px]' src="https://www.freepnglogos.com/uploads/logo-home-png/pros-cons-investing-rental-property-piktochart-14.png" alt="" />
-          </div>
-        </div>
+       
       </div>
     </>
   )
