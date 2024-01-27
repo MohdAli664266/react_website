@@ -21,10 +21,13 @@ function Footer() {
                 <h1 className='text-3xl font-bold'>Contact Us</h1>
                 <p className='px-4 text-purple-700'>Just click on below given link and follow</p>
                 <div className=' flex items-center justify-between p-4'>
-                  <FaInstagram className='hover:text-purple-700 text-3xl text-[#00ffff]' />
-                  <FaLinkedinIn className='hover:text-purple-700 text-3xl text-[#00ffff]' />
+                  <a href="https://www.instagram.com/mohd_ali_664266/?igsh=MXUwa202aG55YWw0ZQ%3D%3D" target='_blank'>
+                  <FaInstagram className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
+                  <a href="https://www.linkedin.com/in/mohd-ali-293a94250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
+                  <FaLinkedinIn className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
                   <FaGithub className='hover:text-purple-700 text-3xl text-[#00ffff]' />
-                  <FaTwitter className='hover:text-purple-700 text-3xl text-[#00ffff]' />
+                  <a href="https://x.com/AnsariRoyalroy?t=aWIO7l_gZCHj1uTI_5hHaA&s=08 " target='_blank'>
+                  <FaTwitter className='hover:text-purple-700 text-3xl text-[#00ffff]' /></a>
                 </div>
               </div>
             </div>
