@@ -14,9 +14,9 @@ function About() {
             <Link to="description"><h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Description</h1></Link>
             <Link to="skills"><h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Skills</h1>
             </Link>
-            <Link to="contact"><h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Contact</h1>
-            </Link>
             <Link to="projects"><h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Projects</h1>
+            </Link>
+            <Link to="contact"><h1 className='flex justify-start p-2 py-1  bg-slate-900 shadow-md shadow-gray-950 text-[#0f0] text-2xl my-1 rounded-md hover:text-[#0ff] font-bold'>Contact</h1>
             </Link>
             
             
