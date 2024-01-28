@@ -6,10 +6,14 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import Layout from './Components/Layout';
-import About from './Components/About';
+import About from './Components/About/About';
 import Service from './Components/Service';
 import Home from './Components/Home';
 import Error from './Components/Error';
+import Description from './Components/About/Description';
+import Skills from './Components/About/Skills';
+import Projects from './Components/About/Projects';
+import Contact from './Components/About/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const body = document.querySelector('body');
@@ -32,7 +36,29 @@ const router = createBrowserRouter(
         },
         {
           path: 'about',
-          element: <About/>
+          element: <About/>,
+          children:[
+            {
+              path: '',
+              element: <Description/>
+            },
+            {
+              path: 'description',
+              element: <Description/>
+            },
+            {
+              path: 'skills',
+              element: <Skills />
+            },
+            {
+              path: 'projects',
+              element: <Projects />
+            },
+            {
+              path: 'contact',
+              element: <Contact />
+            }
+          ]
         },
         {
           path: 'service',

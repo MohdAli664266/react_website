@@ -22,7 +22,7 @@ function Navbar() {
                 to="home"
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-[rgb(0,255,0)]" : "text-black"
+                    isActive ? "text-[rgb(0,255,0)] font-bold" : "text-black"
                   } border-b lg:hover:bg-transparent lg:border-0 hover:text-[rgb(0,255,0)] lg:p-0`
                 }
               >
@@ -34,7 +34,7 @@ function Navbar() {
                 to="about"
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-[rgb(0,255,0)]" : "text-black"
+                    isActive ? "text-[rgb(0,255,0)] font-bold" : "text-black"
                   } border-b  lg:hover:bg-transparent lg:border-0 hover:text-[rgb(0,255,0)] lg:p-0`
                 }
               >
@@ -46,7 +46,7 @@ function Navbar() {
                 to="service"
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-[rgb(0,255,0)]" : "text-black"
+                    isActive ? "text-[rgb(0,255,0)] font-bold" : "text-black"
                   } border-b  lg:hover:bg-transparent lg:border-0 hover:text-[rgb(0,255,0)] lg:p-0`
                 }
               >
@@ -59,7 +59,7 @@ function Navbar() {
                 to="login"
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "hover:text-[rgb(0,255,0)]" : "text-black"
+                    isActive ? "text-[rgb(0,255,0)] font-bold" : "text-black"
                   } border-b  lg:hover:bg-transparent lg:border-0 hover:text-[rgb(0,255,0)] lg:p-0`
                 }
               >
@@ -71,7 +71,7 @@ function Navbar() {
                 to="signup"
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "hover:text-[rgb(0,255,0)]" : "text-black"
+                    isActive ? "text-[rgb(0,255,0)] font-bold" : "text-black"
                   } border-b  lg:hover:bg-transparent lg:border-0 hover:text-[rgb(0,255,0)] lg:p-0`
                 }
               >
