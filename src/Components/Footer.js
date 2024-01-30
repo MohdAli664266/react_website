@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaGithub, FaTwitter  } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import ToDo from './ToDo/ToDo';
 
 function Footer() {
   return (
@@ -18,8 +20,13 @@ function Footer() {
               <div className='bg-slate-800 shadow-md shadow-slate-950 p-4'>
                 <h1 className='text-3xl font-bold'>Projects</h1>
                 <ul className='px-4 text-purple-700 mt-2'>
-                  <li className='cursor-pointer hover:text-[#0f0]'>Password Generator</li>
-                  <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
+                  <li className='cursor-pointer hover:text-[#0f0]'>
+                    <Link to="passwordGenerator">Password Generator</Link></li>
+                  <li className='cursor-pointer hover:text-[#0f0]'>
+                    <Link to="toDo">
+                      ToDo list
+                    </Link>
+                  </li>
                   <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
                   <li className='cursor-pointer hover:text-[#0f0]'>Comming soon</li>
                   

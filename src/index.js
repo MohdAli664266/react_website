@@ -14,6 +14,7 @@ import Description from './Components/About/Description';
 import Skills from './Components/About/Skills';
 import Projects from './Components/About/Projects';
 import Contact from './Components/About/Contact';
+import ToDo from './Components/ToDo/ToDo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const body = document.querySelector('body');
@@ -71,6 +72,14 @@ const router = createBrowserRouter(
         {
           path: 'signup',
           element: <Signup/>
+        },
+        {
+          path: 'toDo',
+          element: <ToDo/>
+        },
+        {
+          path: 'passwordGenerator',
+          element: <Service />
         },
         {
           path: '*',
