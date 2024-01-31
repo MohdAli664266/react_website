@@ -68,21 +68,21 @@ function ToDo() {
                     todos.map((element)=>
                     (
                         <div className='flex flex-col sm:flex-row justify-between my-5 py-2 px-2 bg-gray-500 shadow-lg shadow-gray-950 ' key={element.id}>
-                            <div className='flex gap-2 justify-center py-4 sm:p-0'>
+                            <div className='flex gap-2 justify-center items-center py-4 p-0'>
                                 <input type="checkbox" name="" id="" />
                                 <input type="text"
-                                className='bg-gray-500 outline-none' 
+                                className='bg-gray-500 outline-none min-w-9' 
                                 readOnly = {!isEditable}
                                 value = {isEditable ? message : element.note}
                                 onChange={(e)=>setMessage(e.target.value)}
                                 />
                             </div>
                             <div className='flex justify-center items-center gap-4'>
-                                <button className='bg-blue-600 font-bold text-lg px-4' 
+                                <button className='bg-blue-600 hover:bg-blue-950 font-bold text-lg px-4' 
                                 onClick={()=>
                                     updateTodo(element.id)
                                 }>Edit</button>
-                                <button onClick={()=>deleteTodo(element.id)} className='bg-[#f00] text-[#fff] font-bold text-lg px-4'>Delete</button>
+                                <button onClick={()=>deleteTodo(element.id)} className='bg-[#f00] hover:bg-red-700 text-[#fff] font-bold text-lg px-4'>Delete</button>
                             </div>
                         </div>
                     ))
