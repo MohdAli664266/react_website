@@ -23,7 +23,8 @@ function Items({element}) {
             onChange={toggleComplete} />
 
             <input type="text"
-            className={`bg-transparent outline-none min-w-9 ${element.completed ? "line-through" : ""}`} 
+            className={`bg-transparent outline-none min-w-9 ${element.completed ? "line-through" : ""}`}
+            id={element.id} 
             readOnly = {!isEditable}
             value = {message}
             onChange={(e)=>setMessage(e.target.value)}
@@ -41,6 +42,7 @@ function Items({element}) {
                             editTodo()
                         }else
                         {
+                            document.getElementById(element.id).focus();
                             setisEditable((prev)=>!prev)
                         }
                     }}

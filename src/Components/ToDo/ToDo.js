@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {TodoProvider, useTodo} from './Context'
+import {TodoProvider} from './Context'
 import Items from './Items'
 
 function ToDo() {
